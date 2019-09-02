@@ -12,6 +12,8 @@ namespace ConsoleApplication1
         {
             Greeter.Greeting();
             Speaker.SpeakStuff();
+            Console.WriteLine("There was a bug on Master branch! this is the bugfix!");
+            Console.ReadLine();
         }
     }
 }
