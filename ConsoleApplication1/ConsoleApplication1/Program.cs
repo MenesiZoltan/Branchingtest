@@ -10,9 +10,9 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            Bravo.Introduction();
             Greeter.Greeting();
             Speaker.SpeakStuff();
+
         }
     }
 }
