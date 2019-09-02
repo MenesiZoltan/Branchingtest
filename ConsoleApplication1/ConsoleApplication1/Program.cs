@@ -10,9 +10,7 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world!");
-            Console.WriteLine("This is the second Commit! Next time we will create a separate class!");
-            Console.ReadLine();
+            Greeter.Greeting();
         }
     }
 }
