@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class Program
+    public static class Bravo
     {
-        static void Main(string[] args)
+        public static void Introduction()
         {
-            Bravo.Introduction();
             Greeter.Greeting();
-            Speaker.SpeakStuff();
+            Console.WriteLine("I am Johny Bravo mama!");
         }
     }
 }
