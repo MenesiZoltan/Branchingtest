@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+using System;
 
 namespace ConsoleApplication1
 {
@@ -12,6 +9,8 @@ namespace ConsoleApplication1
         {
             Greeter.Greeting();
             Speaker.SpeakStuff();
+            Feature3Class.WriteNumbers();
+            Console.ReadLine();
         }
     }
 }
