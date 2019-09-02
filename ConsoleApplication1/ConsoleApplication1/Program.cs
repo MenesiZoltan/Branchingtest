@@ -13,6 +13,7 @@ namespace ConsoleApplication1
             Greeter.Greeting();
             Speaker.SpeakStuff();
             Console.WriteLine("There was a bug on Master branch! this is the bugfix!");
+            Console.WriteLine("There was ANOTHER BUG! Huryy, fix it!");
             Console.ReadLine();
         }
     }
