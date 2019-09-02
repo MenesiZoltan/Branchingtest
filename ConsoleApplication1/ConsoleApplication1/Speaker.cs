@@ -11,6 +11,7 @@ namespace ConsoleApplication1
         public static void SpeakStuff()
         {
             Console.WriteLine("I am Lorax and i speak for the trees.");
+            Console.WriteLine("I will speak Even More stuff!");
             Console.ReadLine();
         }
     }
