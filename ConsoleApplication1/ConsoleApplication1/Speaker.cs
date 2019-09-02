@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class Program
+    public static class Speaker
     {
-        static void Main(string[] args)
+        public static void SpeakStuff()
         {
-            Greeter.Greeting();
-            Speaker.SpeakStuff();
+            Console.WriteLine("I am Lorax and i speak for the trees.");
+            Console.ReadLine();
         }
     }
 }
